@@ -44,7 +44,8 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: ElevatedButton(
             onPressed: () {
-              sendSms(phone: '+23059490440', msg: 'This is a test !!');
+              // enter mobile number here
+              sendSms(phone: 'xxxxxxxxx', msg: 'This is a test !!');
             },
             child: const Text('send sms'),
           ),
