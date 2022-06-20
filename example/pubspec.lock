@@ -50,7 +50,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
-  easy_sms:
+  easy_send_sms:
     dependency: "direct main"
     description:
       path: ".."

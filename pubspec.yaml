@@ -1,4 +1,4 @@
-name: easy_sms
+name: easy_send_sms
 description: A Flutter SMS plugin which requests permissions to send SMS in background without UI interactions.
 version: 0.0.1
 homepage: https://github.com/Dicksenz/flutter_easy_sms

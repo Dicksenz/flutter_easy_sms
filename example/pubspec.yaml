@@ -18,7 +18,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  easy_sms:
+  easy_send_sms:
     # When depending on this package from a real application you should use:
     #   easy_sms: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints

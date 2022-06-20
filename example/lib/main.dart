@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:easy_sms/easy_sms.dart';
+import 'package:easy_send_sms/easy_sms.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -45,7 +45,7 @@ class _MyAppState extends State<MyApp> {
           child: ElevatedButton(
             onPressed: () {
               // enter mobile number here
-              sendSms(phone: 'xxxxxxxxx', msg: 'This is a test !!');
+              sendSms(phone: '+xxxxxxxxx', msg: 'This is a test !!');
             },
             child: const Text('send sms'),
           ),

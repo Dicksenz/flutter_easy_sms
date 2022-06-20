@@ -11,8 +11,8 @@ class MethodChannelEasySms extends EasySmsPlatform {
 
   @override
   Future<String?> sendSms({required String phone, required msg}) async {
-    final version = await methodChannel.invokeMethod<String>('sendSms',
-        <String, dynamic>{"phone": "+23059490440", "msg": "Help me please !"});
+    final version = await methodChannel.invokeMethod<String>(
+        'sendSms', <String, dynamic>{"phone": phone, "msg": msg});
     return version;
   }
 }
