@@ -1,4 +1,4 @@
-# Flutter Send SMS plugin
+# Flutter Easy SMS plugin
 
 A Flutter SMS plugin which sends SMS in background without UI interactions.
 
